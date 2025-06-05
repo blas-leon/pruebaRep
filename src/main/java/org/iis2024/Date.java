@@ -84,4 +84,8 @@ public class Date {
       return false;
     }
   }
+
+  public String formatoLargo() {
+    return day + " de " + month + " de " + year;
+  }
 }
