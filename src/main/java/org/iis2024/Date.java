@@ -88,4 +88,10 @@ public class Date {
   public String formatoLargo() {
     return day + " de " + month + " de " + year;
   }
+  
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
 }
